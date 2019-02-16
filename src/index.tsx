@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import './index.css';
+import './style/index.less';
 import registerServiceWorker from './registerServiceWorker';
 import Root from './Root'
 import routeConfig from './common/routeConfig'
