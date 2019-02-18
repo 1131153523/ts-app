@@ -7,6 +7,7 @@ declare interface IRoute {
     childRoutes?: IRoute[];
     exact?: boolean;
     autoIndexRoute?: boolean;
+    protected?: boolean
 }
 declare interface IStore {
     store: any;
